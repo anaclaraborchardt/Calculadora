@@ -1,0 +1,23 @@
+<div style="background-color:cyan;">CALCULADORA</div>
+<input [value] ="digitar">
+<br>
+    <button (click)="numeroClick(1)">1</button>
+    <button (click)="numeroClick(2)">2</button>
+    <button (click)="numeroClick(3)">3</button>
+    <button (click)="adicionarOperacao('/')">/</button>
+    <br>
+    <button (click)="numeroClick(4)">4</button>
+    <button (click)="numeroClick(5)">5</button>
+    <button (click)="numeroClick(6)">6</button>
+    <button (click)="adicionarOperacao('*')">*</button>
+    <br>
+    <button (click)="numeroClick(7)">7</button>
+    <button (click)="numeroClick(8)">8</button>
+    <button (click)="numeroClick(9)">9</button>
+    <button (click)="adicionarOperacao('-')">-</button>
+    <br>
+    <button (click)="numeroClick(0)">0</button>
+    <button (click)="adicionarOperacao('.')">.</button>
+    <button (click)="adicionarOperacao('+')">+</button>
+    <button (click)="limpar()">C</button>
+    <button (click)="igual()">=</button>
