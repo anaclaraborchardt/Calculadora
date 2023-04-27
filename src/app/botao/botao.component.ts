@@ -7,9 +7,12 @@ import {Component, Output, EventEmitter, Input } from "@angular/core"
 
 export class BotaoComponent{
    
-  @Output() clickBotao = new EventEmitter();
-  @Output() clickNumero = new EventEmitter<string>();
-  @Input() digitar: string;
+  @Output() 
+  clickBotao = new EventEmitter();
+  @Output() 
+  clickNumero = new EventEmitter<string>();
+  @Input() 
+  digitar: string;
 
   numero1: number = 0;
   numero2: number = 0;
